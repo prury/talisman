@@ -36,7 +36,7 @@ export const Acknowledgement = ({ onContinueClick }: { onContinueClick: () => vo
             </span>
           </div>
         </div>
-        <Button primary onClick={onContinueClick}>
+        <Button primary onClick={onContinueClick} data-testid="onboarding-acknowledge-button">
           {t("Acknowledge and Continue")}
         </Button>
       </div>

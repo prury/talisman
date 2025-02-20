@@ -88,7 +88,7 @@ function MethodTypeTab({
       )}
       onClick={(e) => (setMethodType(methodType), e.currentTarget.blur())}
     >
-      <div className="text-primary text-lg">{cloneElement(icon, { className: "stroke-1" })}</div>
+      <div className="text-primary text-lg" data-testid="onboarding-create-acc-button">{cloneElement(icon, { className: "stroke-1" })}</div>
       <div
         className={classNames(
           "hidden flex-col items-start justify-start gap-2 lg:flex",
